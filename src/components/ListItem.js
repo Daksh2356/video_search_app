@@ -35,8 +35,7 @@ const styles = StyleSheet.create({
 
   linkStyle: {
     fontSize:20,
-    color: "red",
-    display:blur
+    color: "red"
   },
 });
 
