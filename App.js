@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 
 export default App;
 
-// firt curly braces is for selecting variables in react
+// first curly braces is for selecting variables in react
 // second curly braces is for properties
 
 //  array destructing - a new and and important concept used for larger projects
