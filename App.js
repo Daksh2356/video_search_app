@@ -38,7 +38,6 @@ const App = () => {
       <Button
         title="Search"
         color={"red"}
-        style={styles.textStyle}
         onPress={() => {
           fetchData();
         }}
@@ -67,16 +66,8 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     backgroundColor: "black",
+    height:629
   },
 });
 
 export default App;
-
-// first curly braces is for selecting variables in react
-// second curly braces is for properties
-
-//  array destructing - a new and and important concept used for larger projects
-
-//  arr = [1,2,3,4]
-
-//  const [p,,q] = arr
